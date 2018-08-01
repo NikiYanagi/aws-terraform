@@ -1,0 +1,4 @@
+# Ignore the .terraform folder in the /rhel7/ directory.
+# This is the plugin store for the initialization of terraform.
+# If Terraform plan/apply fails, make sure you have run terraform init beforehand to grab the providers.
+/rhel7/.terraform/*
